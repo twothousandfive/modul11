@@ -1,0 +1,27 @@
+@startuml
+class Book {
+    - Title : String
+    - Author : String
+    - ISBN : String
+    - IsAvailable : boolean
+    + MarkAsLoaned()
+    + MarkAsAvailable()
+}
+class Reader {
+    - Id : int
+    - Name : String
+    - Email : String
+    + BorrowBook()
+    + ReturnBook()
+}
+class Librarian {
+    - Id : int
+    - Name : String
+    - Position int
+    + AddBook()
+    + RemoveBook()
+}
+class Loan {
+    
+}
+@enduml

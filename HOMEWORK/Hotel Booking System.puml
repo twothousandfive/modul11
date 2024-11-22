@@ -1,0 +1,49 @@
+@startuml
+
+' Определение компонентов системы
+package "Hotel Booking System" {
+  
+
+  [UI Component] --> [HotelService] : ищет отели
+  [UI Component] --> [BookingService] : бронирует номера
+  [UI Component] --> [UserManagementService] : регистрирует пользователя
+  
+  
+  [HotelService] --> [Database] : управляет данными отелей
+  [BookingService] --> [Database] : хранит данные о бронированиях
+  [PaymentService] --> [Payment Gateway] : обрабатывает платежи
+  [NotificationService] --> [Email, SMS Gateway] : отправляет уведомления
+  [UserManagementService] --> [User Database] : хранит данные пользователей
+
+  
+  [UserManagementService] --> [UI Component] : предоставляет регистрацию и вход
+  
+  
+  [HotelService] --> [UI Component] : предоставляет поиск отелей
+  
+  
+  [BookingService] --> [UI Component] : предоставляет возможность бронирования
+  
+ 
+  [PaymentService] --> [UI Component] : обрабатывает платежи
+  
+  
+  [NotificationService] --> [UI Component] : отправляет уведомления
+  
+}
+
+' Определение компонентов системы
+component "UI Component" as UI
+component "HotelService" as HotelService
+component "BookingService" as BookingService
+component "PaymentService" as PaymentService
+component "NotificationService" as NotificationService
+component "UserManagementService" as UserManagementService
+
+' Внешние системы, с которыми взаимодействуют компоненты
+database "Database" as DB
+database "User Database" as UserDB
+node "Payment Gateway" as PaymentGateway
+node "Email, SMS Gateway" as NotificationGateway
+
+@enduml

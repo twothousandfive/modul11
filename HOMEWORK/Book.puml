@@ -1,0 +1,30 @@
+@startuml
+class Book {
+    - Title : string
+    - Author : string
+    - ISBN : string
+    - Status : string
+    + rent() : bool
+    + returnBook() : bool
+}
+class Reader {
+    - name : string
+    - rentBooks : List<Book>
+    + rentBook() : bool
+    + returnBook() : bool
+}
+class Librarian{
+    - name : string 
+    + manageBooks()
+}
+class Library {
+    - books : List<Book>
+    + addBook()
+    + removeBook()
+    +listBook()
+}
+
+Library o-- Book : Содержит
+Reader --> Book : Арендной платы
+Librarian --> Library : Управляет
+@enduml

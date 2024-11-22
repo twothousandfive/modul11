@@ -1,0 +1,14 @@
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\bin\Debug\net8.0\HOMEWORK.exe
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\bin\Debug\net8.0\HOMEWORK.deps.json
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\bin\Debug\net8.0\HOMEWORK.runtimeconfig.json
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\bin\Debug\net8.0\HOMEWORK.dll
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\bin\Debug\net8.0\HOMEWORK.pdb
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\HOMEWORK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\HOMEWORK.AssemblyInfoInputs.cache
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\HOMEWORK.AssemblyInfo.cs
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\HOMEWORK.csproj.CoreCompileInputs.cache
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\HOMEWORK.dll
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\refint\HOMEWORK.dll
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\HOMEWORK.pdb
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\HOMEWORK.genruntimeconfig.cache
+C:\Users\domai\RiderProjects\MODUL11\HOMEWORK\obj\Debug\net8.0\ref\HOMEWORK.dll
